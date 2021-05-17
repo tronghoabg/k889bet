@@ -103,8 +103,8 @@ a.active{
         width: 50%;
     }
     .my-dropdown-menu li a{
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 16px;
+        padding: 5px 30px;
     }
     .float-contact img{
         width: 50%;
@@ -126,15 +126,18 @@ a.active{
         padding:0!important;
     }
     .lang >nav{
-        top: 8px;
+        top: 6px;
         position: relative;
     }
     .dropdown-menu {
         left: -70px;
     }
+    .my-dropdown-menu {
+        top: 70px;
+    }
 }
 @media only screen and (max-width:500px){
     #num2 .owl-item{
-        height: 18px;
+        height: 18px!important  ;
     }
 }
