@@ -2,9 +2,9 @@ $('#num1').owlCarousel({
     margin:0,
     loop:true,
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:5000,
     autoplayHoverPause:true,
-    smartSpeed:3000,
+    smartSpeed:5000,
     dots:true,
     nav:true,
     responsive:{
@@ -25,8 +25,8 @@ $('#num2').owlCarousel({
     autoWidth:true,
     autoplay:true,
     autoplayHoverPause:true,
-    smartSpeed:1000,
-    fluidSpeed:1000,
-    autoplayTimeout:1000,
+    smartSpeed:2000,
+    fluidSpeed:2000,
+    autoplayTimeout:2000,
     dots:false,
 })

@@ -127,6 +127,7 @@ a.active{
     }
     .lang >nav{
         top: 6px;
+        left: -5px;
         position: relative;
     }
     .dropdown-menu {

@@ -189,14 +189,14 @@ transform: scale(1.4,1.4);
 
 
 
-
+.w-600p{
+    width: 100%;
+}
+.fix-width .item{
+    width: 48%;
+}
 @media only screen and (max-width:991px){
-    .w-600p{
-        width: 100%;
-    }
-    .fix-width .item{
-        width: 48%;
-    }
+
     .img-rad img{
         width: 100px;
     }
