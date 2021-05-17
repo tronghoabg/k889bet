@@ -1,0 +1,52 @@
+.my-card .title{
+    color: #510909;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+.img-rad img{
+    width: 130px;
+}
+.my-card{
+    margin-right: 30px;
+}
+#num1 .owl-dots button{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+#num1 .owl-dots button.active{
+    background: #fff;
+}
+#num1{
+    position: relative;
+}
+#num1 .owl-dots{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#num1 .owl-nav button{
+    position: absolute; 
+    top: 50%;
+    transform:translateY(-50%);
+}
+#num1 .owl-nav span{
+    font-size: 80px;  
+    color: #fff;  
+    opacity: 0;
+    text-shadow: 0px 0px 10px #dedede;
+    transition: all 0.7s;
+}
+#num1:hover .owl-nav span{
+    opacity: 1;
+}
+#num1 .owl-next{
+    right: 10px;
+}
+#num1 .owl-prev{
+    left: 10px;
+}

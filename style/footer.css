@@ -1,0 +1,34 @@
+.l-devide{
+    width: 100%;
+    background: #650B0B;
+    height: 5px;
+    margin: 10px 0px;
+}
+.group-tag a{
+    color: #282828;
+    font-size: 25px;
+    transition: all 0.7s;
+}
+.group-tag a:hover{
+    color: #F2C656;
+}
+.group-tag li{
+    position: relative;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.group-tag li:after{
+    content: '';
+    position: absolute;
+    background: #282828;
+    height: 21px;
+    width: 1px;
+    top: 8px;
+    right: -20px;
+}
+.float-contact{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
