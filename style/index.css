@@ -177,7 +177,15 @@ transform: scale(1.4,1.4);
 .wrap-text{
     padding: 20px 20px;
 }
-
+/* -----contact----- */
+.contact a{
+    font-size: 30px;
+    color: #650B0B;
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
 
 
 
