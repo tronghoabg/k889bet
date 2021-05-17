@@ -102,4 +102,39 @@ a.active{
     .mb-50{
         width: 50%;
     }
+    .my-dropdown-menu li a{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .float-contact img{
+        width: 50%;
+    }
+    .ads-slider{
+        width: calc(100% - 100px);
+        padding: 10px 0px;
+    }
+    .lang{
+        position: relative;
+        top: 3px;
+        width: 100px;
+    }
+    .lang .content{
+        font-size: 10px!important;
+
+    }
+    .lang .off-icon{
+        padding:0!important;
+    }
+    .lang >nav{
+        top: 8px;
+        position: relative;
+    }
+    .dropdown-menu {
+        left: -70px;
+    }
+}
+@media only screen and (max-width:500px){
+    #num2 .owl-item{
+        height: 18px;
+    }
 }

@@ -192,7 +192,10 @@ transform: scale(1.4,1.4);
 
 @media only screen and (max-width:991px){
     .w-600p{
-        width: 150px;
+        width: 100%;
+    }
+    .fix-width .item{
+        width: 48%;
     }
     .img-rad img{
         width: 100px;
@@ -205,5 +208,27 @@ transform: scale(1.4,1.4);
     }
     .vertical-post .main-cont{
         width: 80%;
+    }
+    /* ---- */
+    .group-tag a{
+        font-size: 8px;
+    }
+    .group-tag li{
+        margin: 5px;
+    }
+    .group-tag li:after {
+        content: '';
+        position: absolute;
+        background: #282828;
+        height: 12px;
+        width: 1px;
+        top: 8px;
+        right: -20px;
+    }
+    .item-slider{
+        font-size: 10px;
+    }
+    #num1 .owl-dots{
+        bottom: 20px;
     }
 }
