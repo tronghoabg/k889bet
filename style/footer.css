@@ -38,3 +38,6 @@
     position: fixed;
     bottom: 0;
 }
+.float-contact{
+    display: none!important;
+}
