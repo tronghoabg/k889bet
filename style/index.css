@@ -195,6 +195,9 @@ transform: scale(1.4,1.4);
 .fix-width .item{
     width: 48%;
 }
+.item-slider{
+    padding-right: 25px;
+}
 @media only screen and (max-width:991px){
 
     .img-rad img{
@@ -226,7 +229,7 @@ transform: scale(1.4,1.4);
         right: -20px;
     }
     .item-slider{
-        font-size: 10px;
+        padding-right: 15px;
     }
     #num1 .owl-dots{
         bottom: 20px;
