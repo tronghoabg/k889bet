@@ -9,4 +9,23 @@ $(document).ready(function(){
         $('#drop-menu').addClass('d-none');
         $(this).addClass('d-none');
     });
+
+
+    listState = $('.stateoff');
+    // console.log(listState);
+
+    $('.style-message .btn').click(function(){
+        
+        varx = $(this).find('.stateoff').text();
+        // console.log(varx);
+        $('.stateoff').text('+');
+        if(varx == '+'){
+            $(this).find('.stateoff').text('-')
+        }
+        else{
+            $(this).find('.stateoff').text('+')
+        }
+    });
+    
+
 })

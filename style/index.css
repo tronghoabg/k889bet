@@ -81,6 +81,7 @@
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
+    width: 100%;
 }
 .tab-collapse .card-header .btn:hover{
     text-decoration: none;
@@ -136,6 +137,49 @@
 .vertical-post .img img:hover{
 transform: scale(1.4,1.4);
 }
+/* ----- cuphaptn ----- */
+.style-message .card-header{
+    
+    background: #E8E6E7;
+    border-radius: 0;
+    padding: 3px 0px;
+}
+.style-message .card-header .btn{
+    color: #282828;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    padding-left: 50px;
+}
+.stateoff{
+    background: #650B0B;
+    border-radius: 3px;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    text-align: center;
+}
+.get-bank{
+    color: #000;
+    background: #EADE72;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 15px 0px;
+}
+.c-blue{
+    color: #01487e;
+}
+.wrap-text{
+    padding: 20px 20px;
+}
+
+
+
 
 
 @media only screen and (max-width:991px){
