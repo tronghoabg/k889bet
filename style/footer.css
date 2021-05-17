@@ -26,6 +26,12 @@
     top: 8px;
     right: -20px;
 }
+.group-tag li:last-child:after{
+    content: '';
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}
 .float-contact{
     width: 100%;
     text-align: center;

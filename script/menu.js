@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('#open-btn').click(function(){
+        $('#close-btn').removeClass('d-none');
+        $('#drop-menu').removeClass('d-none');
+        $(this).addClass('d-none');
+    });
+    $('#close-btn').click(function(){
+        $('#open-btn').removeClass('d-none');
+        $('#drop-menu').addClass('d-none');
+        $(this).addClass('d-none');
+    });
+})

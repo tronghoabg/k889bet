@@ -25,18 +25,53 @@
         <div class="wrap-h-main">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="nav-menu">
-                    <a href="javascript:void(0)">
-                        <img src="/image/icon_menu_nav.png" alt="">
-                    </a>
+                    <span id="open-btn" class="cursor-pointer">
+                        <img src="/image/icon_menu_nav.png" alt="" class="w-50p-mb">
+                    </span>
+                    <span href="" id="close-btn" class="d-none cursor-pointer">
+                        <img src="/image/icon_x_menu.png" alt="" class="w-50p-mb">
+                    </span>
+                    <div class="my-dropdown-menu d-none" id="drop-menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="active">
+                                    <img src="/image/i1.png" alt="">
+                                    trang chủ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i1.png" alt="">thể thao</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i2.png" alt="">sòng bài</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i3.png" alt="">khuyến mãi</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i4.png" alt="">cú pháp tin nhắn</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i5.png" alt="">ngân hàng</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i6.png" alt="">trợ giúp</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="/image/i7.png" alt="">liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                
                 <div class="wrap-logo">
                     <a href="#">
-                        <img src="/image/logo.png" alt="">
+                        <img src="/image/logo.png" alt="" class="w-50p-mb">
                     </a>
                 </div>
                 <div class="wrap-chat">
                     <a href="javascript:void(0)">
-                        <img src="/image/Chatnow.gif" alt="">
+                        <img src="/image/Chatnow.gif" alt="" class="w-50p-mb">
                     </a>
                 </div>
             </div>
@@ -123,7 +158,7 @@
             </div>
         </div>
         <div class="gap-sm"></div>
-        <div class="card-list d-flex">
+        <div class="card-list d-flex flex-nowrap overflow-auto">
             <a href="#" class="my-card">
                 <div class="img-rad">
                     <img src="/image/Keodo.png" alt="">
@@ -177,22 +212,22 @@
     <!-- ----- ----- footer ----- ------->
     <div class="float-contact">
         <a href="tel:0000000">
-            <img src="/image/ht-ft.gif" alt="">
+            <img src="/image/ht-ft.gif" alt="" class="img-fluid">
         </a>
     </div>
     <section class="footer-1">
-        <div class="d-flex justify-content-around">
-            <a href="#" class="item">
-                <img src="/image/Dangnhap.png" alt="">
+        <div class="d-flex justify-content-lg-around">
+            <a href="#" class="item mb-50">
+                <img src="/image/Dangnhap.png" alt="" class="img-fluid">
             </a>
-            <a href="#" class="item">
-                <img src="/image/Trogiup.png" alt="">
+            <a href="#" class="item mb-50">
+                <img src="/image/Trogiup.png" alt="" class="img-fluid">
             </a>
-            <a href="#" class="item">
-                <img src="/image/Lienhe.png" alt="">
+            <a href="#" class="item mb-50">
+                <img src="/image/Lienhe.png" alt="" class="img-fluid">
             </a>
-            <a href="#" class="item">
-                <img src="/image/Trogiup.png" alt="">
+            <a href="#" class="item mb-50">
+                <img src="/image/Trogiup.png" alt="" class="img-fluid">
             </a>
         </div>
     </section>
@@ -201,7 +236,7 @@
     <div class="gap-sm"></div>
     <section class="footer-absolute">
         <div class="group-tag">
-            <ul class="d-flex">
+            <ul class="flex-nowrap flex-lg-row justify-content-around flex-nowrap flex-column" >
                 <li><a href="#" class="text-uppercase">giới thiệu</a></li>
                 <li><a href="#" class="text-uppercase">đại lý</a></li>
                 <li><a href="#" class="text-uppercase">hướng dẫn</a></li>
@@ -222,3 +257,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 <!-- /*-----*-----*-- my-script --*-----*-----*/ -->
 <script src="/script/slider.js"></script>
+<script src="/script/menu.js"></script>

@@ -2,9 +2,9 @@ $('#num1').owlCarousel({
     margin:0,
     loop:true,
     autoplay:true,
-    autoplayTimeout:1500,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
-    smartSpeed:2000,
+    smartSpeed:3000,
     dots:true,
     nav:true,
     responsive:{

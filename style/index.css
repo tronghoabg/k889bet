@@ -50,3 +50,25 @@
 #num1 .owl-prev{
     left: 10px;
 }
+.wrap-slider {
+    position: relative;
+    z-index: -1;
+}
+.w-600p{
+    width: 600px;
+}
+
+@media only screen and (max-width:991px){
+    .w-600p{
+        width: 150px;
+    }
+    .img-rad img{
+        width: 100px;
+    }
+    .group-tag>div{
+        flex-direction: column!important;
+    }
+    .w-50p-mb{
+        width: 50px;
+    }
+}
