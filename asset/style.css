@@ -1,0 +1,111 @@
+/*-- color --*/
+h1, h2, h3, h4, h5, h6{
+	
+}
+.c-white{
+    color: #fff;
+}
+.c-white-1{
+    color: rgba(255,255,255,.45);
+}
+.c-org{
+    color: #ff6b20;
+}
+.c-dark{
+    color:#444444;
+}
+.c-dark-1{
+    color: #444f5e;
+}
+.c-dark-2{
+    color: #868686;
+}
+.c-blue{
+    color: #0DCFDA;
+}
+.c-blue-1{
+    color: #3d4499;
+}
+.c-light-red{
+    color: #ff7676;
+}
+.c-blue{
+    color: #2abce7;
+}
+.c-yel{
+    color: #eaac1f;
+}
+.bg-w{
+    background:#fff;
+}
+.bg-d{
+    background: #F7F7F7;
+}
+
+/*-- important style --*/
+.gap-md, .gap-sm,
+.gap-lg, .gap-xs{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.gap-sm{
+    height: 30px;
+}
+.gap-xs{
+    height: 10px;
+}
+.gap-lg{
+    height: 100px;
+}
+.mg-pd-none{
+    padding: 0;
+    margin:0;
+}
+.large-size{
+    font-size: 30px!important;
+}
+.medium-size{
+    font-size: 18px!important;
+}
+.small-size{
+    font-size: 14px!important;
+}
+.xsmall-size{
+    font-size: 12px!important;
+}
+.hidden{
+    overflow: hidden!important;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.unset{
+    position: unset!important;
+}
+@media only screen and (max-width:991px){
+    .mg-pd-none-mb{
+        padding: 0;
+	    margin:0;
+    }
+    .xsmall-size{
+        font-size: 8px!important;
+    }
+    .small-size{
+        font-size: 12px!important;
+    }
+    .medium-size{
+        font-size: 14px!important;
+    }
+    .large-size{
+        font-size: 20px!important;
+    }
+    .footer-absolute .small-size{
+        font-size: 10px!important;
+    }
+}
