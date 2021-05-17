@@ -111,7 +111,7 @@ a.active{
     }
     .ads-slider{
         width: calc(100% - 100px);
-        padding: 10px 0px;
+        /* padding: 10px 0px; */
     }
     .lang{
         position: relative;
