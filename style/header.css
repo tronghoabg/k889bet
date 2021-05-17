@@ -90,7 +90,7 @@ a.active{
     background: #EBE173!important;
     color: #000!important;
 }
-.my-dropdown-menu li a:hover{
+.my-dropdown-menu li:hover{
     background: #EBE173;
     color: #000;
 }

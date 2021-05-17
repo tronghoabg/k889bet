@@ -57,6 +57,49 @@
 .w-600p{
     width: 600px;
 }
+.wrap-ytb iframe{
+    width: 100%;
+    height: 500px;
+}
+
+/* ---- songbai ------ */
+.tab-collapse .card{
+    border: none;
+    margin-bottom: 5px;
+}
+.tab-collapse .card-body{
+    padding: 0;
+}
+.tab-collapse .card-header{
+    background: #650B0B;
+    text-align: center;
+    padding: 0;
+    border-radius: 8px;
+}
+.tab-collapse .card-header .btn{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tab-collapse .card-header .btn:hover{
+    text-decoration: none;
+}
+.tab-collapse .wrap-list a{
+    display: block;
+    font-weight: 600;
+    color: #282828;
+    font-style: italic;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dedede;
+}
+.tab-collapse .wrap-list li:last-child a{
+    border: none;
+}
+.tab-collapse .wrap-list a>img{
+    position: relative;
+    top: -2px;
+}
 
 @media only screen and (max-width:991px){
     .w-600p{

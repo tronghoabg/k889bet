@@ -19,3 +19,14 @@ $('#num1').owlCarousel({
         }
     }
 })
+$('#num2').owlCarousel({
+    margin:30,
+    loop:true,
+    autoWidth:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    smartSpeed:1000,
+    fluidSpeed:1000,
+    autoplayTimeout:1000,
+    dots:false,
+})
