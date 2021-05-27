@@ -187,8 +187,6 @@ transform: scale(1.4,1.4);
     left: 10px;
 }
 
-
-
 .w-600p{
     width: 100%;
 }
@@ -198,6 +196,57 @@ transform: scale(1.4,1.4);
 .item-slider{
     padding-right: 25px;
 }
+/* ----- naptien ----- */
+.title-bg-0{
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px;
+}
+.c-main{
+    color: #b30c0c;
+}
+.fsize-24{
+    font-size: 24px;
+}
+.text{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.btn-money{
+    transition: all 0.4s;
+}
+.btn-money:hover{
+    opacity: 0.5;
+}
+/* ----- gioithieu ----- */
+.title-under{
+    color: #650B0B;
+    text-transform: uppercase;
+    border-bottom: 1px solid #650B0B;
+    padding: 15px 0px;
+}
+.c-yel-1{
+    color: #ebe073;
+}
+.daily .nav-tabs {
+    border-bottom: 1px solid #ebe073;
+}
+.daily .nav-tabs .nav-link {
+    color: #000;
+    border-radius: 0;
+    padding: 12px;
+    background-color: #F2F2F2;
+    border: 1px solid #E7E7E7;
+    border-left:0px;
+}
+.daily .nav-tabs .nav-link:last-child{
+    border-right:0px;
+}
+.daily  .nav-link.active{
+    border-radius: 5px 5px 0px 0px;
+}
+/* ----- ----- */
 @media only screen and (max-width:991px){
 
     .img-rad img{
