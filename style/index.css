@@ -246,6 +246,95 @@ transform: scale(1.4,1.4);
 .daily  .nav-link.active{
     border-radius: 5px 5px 0px 0px;
 }
+/* ----- form ----- */
+
+.wrap-inp label{
+    width: 50%;
+    height: 100px;
+    font-weight: 600;
+}
+.wrap-inp select{
+    text-align: center;
+    float: initial;
+    display: block;
+    border: none;
+    height: 40px;
+    width: 40%;
+    padding: 10px;
+    line-height: 40px;
+    outline: 0;
+    max-width: 100%;
+    background-color: #e2deba;
+    border-radius: 3px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+.wrap-inp option{
+    text-align: center;
+}
+.wrap-inp input{
+    padding: 10px;
+    border: none;
+    background: #e2deba;
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+    font-family: 'Roboto',sans-serif;
+    max-width: 100%;
+    border: 1px solid #e2deba;
+    opacity: 0.8;
+    font-size: 15px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.single input{
+    top: 0;
+}
+.single label{
+    height: 50px;
+}
+.wrap-inp{
+    position: relative;
+}
+.btn-submit{
+    border-radius: 5px !important;
+    outline: none;
+    font-weight: bold;
+    color: #000 !important;
+    font-size: 16px;
+    padding: 5px 15px;
+    background: #fff;
+}
+.btn-close{
+    right: 20px;
+    top: 20px;
+    padding: 0 5px!important;
+    margin: 0!important;
+    border: 2px solid #F2C656!important;
+    border-radius: 50%;
+    opacity: 1;
+}
+.btn-close span{
+    color: #F2C656;
+    opacity: 1;
+}
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid#F2C656;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
 /* ----- ----- */
 @media only screen and (max-width:991px){
 
