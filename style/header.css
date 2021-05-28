@@ -94,6 +94,9 @@ a.active{
     background: #EBE173;
     color: #000;
 }
+.wrap-chat{
+    visibility: hidden;
+}
 /* ---------- */
 @media only screen and (max-width:991px){
     .my-container{
