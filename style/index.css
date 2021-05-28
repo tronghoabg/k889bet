@@ -88,11 +88,13 @@
 }
 .tab-collapse .wrap-list a{
     display: block;
-    font-weight: 600;
+    font-weight: 900;
     color: #282828;
     font-style: italic;
     padding: 10px 15px;
     border-bottom: 1px solid #dedede;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .tab-collapse .wrap-list li:last-child a{
     border: none;
